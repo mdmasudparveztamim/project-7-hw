@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>
+	Basic HTML From W3 School
+	</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+<h1>This is Headertype 1 </h1>
+<h2>This is Headertype 2</h2>
+<h3>This is Headertype 3</h3>
+<h4>This is Headertype 4</h4> 
+<h5>This is Headertype 5</h5>
+<h6>This is Headertype 6</h6>
+<p>This is a paragraph.</p>
+<p>This is reference <p><hr>
+<p>HTML links are defined with the a tag:</p>
+<p><a href="https://en.wikipedia.org/wiki/Pablo_Picasso">This is Pablo Picasso</a>
+</p>
+<img src="images/project picasso.jpg" alt="Pablo Picasso*s photo"><br>
+<p>I am normal</p>
+<p class="blue">I am blue</p>
+<p class="green">I am green</p>
+<p class="fontsize">I am big</p>
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+<p><strong>This text is strong</strong></p>
+<p><em>This text is emphasized</em>
+</p>
+<p>
+<ins>This text is inserted</ins>
+</p>
+<p><del>This defines deleted text</del></p><p><mark>This defines mark text</mark></p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>Here is a quote from Wikipedia website:</p>
+<blockquote cite="https://en.wikipedia.org/wiki/Moumi_S%C3%A9bergu%C3%A9">
+  Pablo Ruiz Picasso (25 October 1881 – 8 April 1973) was a Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculpture,the co-invention of collage, and for the wide variety of styles that he helped develop and explore. Among his most famous works are the proto-Cubist Les Demoiselles d'Avignon (1907), and Guernica (1937), a dramatic portrayal of the bombing of Guernica by German and Italian air forces during the Spanish Civil War.<q>Picasso demonstrated extraordinary artistic talent in his early years, painting in a naturalistic manner through his childhood and adolescence. During the first decade of the 20th century, his style changed as he experimented with different theories, techniques, and ideas. After 1906</q>
+
+</p>
+<address>
+     Whitter by <a href="https://www.linkedin.com/in/parveztamim/">Parvez Tamim</a> <br>
+     Visite : <a href="https://www.facebook.com/parveztamim001/">Parvez Tamim</a> <br>
+     South Banasree,Dhaka
+</address>
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<bdo dir="rtl">This text will be written from right to left by bdo tag.</bdo>
+<p id="myHeader">My Header</p>
+<p><a href="#C2">Jump to Chapter 4</a></p>
+<p><a href="#C4">Jump to Chapter 10</a></p>
+
+<h2>Chapter 1</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium esse tempora consequatur illo molestiae, obcaecati enim praesentium iusto. Neque dolorem necessitatibus modi reprehenderit aliquid quibusdam voluptatum voluptatem repudiandae totam quos.</p>
+
+<h2 id="C2">Chapter 2</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore illo voluptatibus magni modi aspernatur vitae.</p>
+
+<h2>Chapter 3</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti veniam tenetur vel modi blanditiis!</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deleniti praesentium asperiores veritatis autem quibusdam.</p>
+
+<h2>Chapter 5</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error veritatis aperiam asperiores corrupti id.</p>
+<h2>Using The id Attribute in JavaScript</h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML="Have a nice day!";
+}
+</script>
+<h2>An Unordered CR List</h2>
+
+<ul>
+  <li>Tuhin</li>
+  <li>Moumi</li>
+  <li>Masud</li>
+</ul>  
+
+<h2>An Ordered CR List</h2>
+
+<ol>
+  <li>Tuhin</li>
+  <li>Moumi</li>
+  <li>Masud</li>
+</ol> 
+<dl>
+  <dt>Tuhin</dt>
+  <dd>-1st/main cr</dd>
+  <dt>Masud</dt>
+  <dd>- 2nd cr</dd>
+<dt>Moumi</dt>
+<dd>-Assistant cr</dd>
+</dl>
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+</body>
+</html> 

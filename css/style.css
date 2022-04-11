@@ -1,0 +1,33 @@
+body { background-color:lightgrey; }
+img {
+	width:40%;
+	height:40%;
+}
+h1{ background-color: rgb(70, 0, 128);
+font-family:verdana; 
+color: white;}
+h2{text-align: center;}
+.blue {color: blue;}
+.green{color: green;}
+.fontsize { font-size: 50px; }
+#myHeader {
+  background-color:tomato;
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid darkred;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:tomato;
+}
